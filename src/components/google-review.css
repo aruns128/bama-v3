@@ -1,0 +1,17 @@
+/* Custom styles for the review carousel */
+.review-carousel .slick-slide {
+  padding: 0 15px; /* Adjust the gap between the cards */
+}
+
+.review-carousel .slick-track {
+  display: flex;
+  gap: 15px; /* Gap between the cards inside the slider */
+}
+
+.review-description {
+  display: -webkit-box;
+  -webkit-line-clamp: 5; /* Limit to 5 lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

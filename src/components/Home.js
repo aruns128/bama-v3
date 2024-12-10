@@ -9,6 +9,7 @@ import {
   FaHeart,
 } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
+import GoogleReviews from "./GoogleReview";
 
 const Home = () => {
   const sliderRef = useRef(null);
@@ -394,6 +395,7 @@ const Home = () => {
           )}
         </div>
       </section>
+      <GoogleReviews />
     </div>
   );
 };
