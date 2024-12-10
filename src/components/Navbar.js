@@ -8,6 +8,7 @@ const Navbar = () => {
   const dropdownRefs = useRef([]);
 
   const menuItems = [
+    { label: "Home", path: "/" },
     {
       label: "Why Us",
       subItems: [
