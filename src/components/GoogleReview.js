@@ -89,7 +89,7 @@ const ReviewCarousel = () => {
               className="flex-shrink-0 w-full sm:w-1/2 md:w-1/4 p-4 bg-white shadow-lg rounded-lg mb-6 mx-2 min-h-[200px]" // Set a fixed height for all cards
             >
               {/* Star Rating */}
-              <div className="flex mb-4">
+              <div className="flex mb-4 items-center">
                 {[...Array(5)].map((_, i) => (
                   <FaStar
                     key={i}
