@@ -2,6 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 import { FaStar } from "react-icons/fa"; // For star icon
 import "./google-review.css";
+import { FcGoogle } from "react-icons/fc";
 
 const reviews = [
   {
@@ -119,7 +120,7 @@ const ReviewCarousel = () => {
                   rel="noopener noreferrer"
                   className="text-amber-500 hover:underline"
                 >
-                  Read more
+                  <FcGoogle size={30} />
                 </a>
               </div>
             </div>
