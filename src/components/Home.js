@@ -103,9 +103,9 @@ const Home = () => {
       <section className="bg-gray-100 py-6 z-1 mt-24 relative">
         <div className="container mx-auto flex flex-col lg:flex-row items-center">
           {/* Left Custom Arrow */}
-          <div className="absolute left-4 top-1/2 transform -translate-y-1/2 flex flex-col gap-4">
+          <div className="absolute left-4 z-10 top-1/2 transform -translate-y-1/2 flex flex-col gap-4 sm:left-2">
             <div
-              className="text-amber-500 p-2  items-center flex justify-center"
+              className="text-amber-500 p-2 items-center flex justify-center"
               onClick={() => sliderRef?.current?.slickPrev()} // Ref-based navigation
             >
               <FaChevronLeft size={30} />
@@ -140,7 +140,7 @@ const Home = () => {
           </div>
 
           {/* Content: Occupies 25% on large screens */}
-          <div className="w-full lg:w-1/4 text-center lg:text-left">
+          <div className="w-full lg:w-1/4 text-center lg:text-left px-4">
             <h3 className="text-2xl font-bold mb-4 text-gray-900">
               Section Title
             </h3>
@@ -158,7 +158,7 @@ const Home = () => {
         {/* Right Custom Arrow */}
         <div className="absolute right-4 top-1/2 transform -translate-y-1/2 flex flex-col gap-4">
           <button
-            className="text-amber-500  items-center flex justify-center"
+            className="text-amber-500 items-center flex justify-center"
             onClick={() => sliderRef?.current?.slickNext()} // Ref-based navigation
           >
             <FaChevronRight size={30} />

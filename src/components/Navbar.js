@@ -169,18 +169,17 @@ const Navbar = () => {
                         {item.label}
                       </button>
                       {openDropdown === index && (
-                        <ul className="pl-4 mt-2">
+                        <div className="pl-4 mt-2 max-h-56 overflow-y-auto">
                           {item.subItems.map((subItem, subIndex) => (
-                            <li key={subIndex}>
-                              <Link
-                                to="#"
-                                className="block px-2 py-1 text-sm text-gray-700 hover:text-amber-300 font-semibold"
-                              >
-                                {subItem.label}
-                              </Link>
-                            </li>
+                            <Link
+                              key={subIndex}
+                              to="#"
+                              className="block px-2 py-1 text-sm text-gray-700 hover:text-amber-300 font-semibold"
+                            >
+                              {subItem.label}
+                            </Link>
                           ))}
-                        </ul>
+                        </div>
                       )}
                     </>
                   ) : (
