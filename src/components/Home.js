@@ -10,6 +10,7 @@ import {
 } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 import GoogleReviews from "./GoogleReview";
+import { ConditionsData as conditions } from "./ConditionsData";
 
 const Home = () => {
   const sliderRef = useRef(null);
@@ -19,38 +20,38 @@ const Home = () => {
     "https://www.youtube.com/embed/QV0JqnKRxIc?si=iS4zj9YWm-9W9pmC"
   );
 
-  const conditions = [
-    { label: "Back Pain" },
-    { label: "Lower Back Pain" },
-    { label: "Neck Pain" },
-    { label: "Slipped Disc" },
-    { label: "Cervical Spinal Canal Stenosis" },
-    { label: "Spondylitis" },
-    { label: "Spondylosis" },
-    { label: "Sciatica" },
-    { label: "Disc Bulge" },
-    { label: "Degenerative Disc Disease" },
-    { label: "Scoliosis" },
-    { label: "Spinal Arthritis" },
-    { label: "Osteoporosis" },
-    { label: "Pelvic Girdle Pain" },
-    { label: "Piriformis Syndrome" },
-    { label: "Sacroiliac Joint Dysfunction" },
-    { label: "Kyphosis" },
-    { label: "Disc Sequestration" },
-    { label: "Fibromyalgia" },
-    { label: "Spondyloarthropathies" },
-    { label: "Pregnancy Back Pain" },
-    { label: "Upper Back Pain" },
-    { label: "Spondylolisthesis" },
-    { label: "Stenosis" },
-    { label: "Headaches With Neck Pain" },
-    { label: "Facet Joint Arthropathy" },
-    { label: "Back Pain In Children" },
-    { label: "Ankylosing Spondylitis" },
-    { label: "Spinal Canal Stenosis" },
-    { label: "Lumbar Spinal Stenosis" },
-  ];
+  // const conditions = [
+  //   { label: "Back Pain" },
+  //   { label: "Lower Back Pain" },
+  //   { label: "Neck Pain" },
+  //   { label: "Slipped Disc" },
+  //   { label: "Cervical Spinal Canal Stenosis" },
+  //   { label: "Spondylitis" },
+  //   { label: "Spondylosis" },
+  //   { label: "Sciatica" },
+  //   { label: "Disc Bulge" },
+  //   { label: "Degenerative Disc Disease" },
+  //   { label: "Scoliosis" },
+  //   { label: "Spinal Arthritis" },
+  //   { label: "Osteoporosis" },
+  //   { label: "Pelvic Girdle Pain" },
+  //   { label: "Piriformis Syndrome" },
+  //   { label: "Sacroiliac Joint Dysfunction" },
+  //   { label: "Kyphosis" },
+  //   { label: "Disc Sequestration" },
+  //   { label: "Fibromyalgia" },
+  //   { label: "Spondyloarthropathies" },
+  //   { label: "Pregnancy Back Pain" },
+  //   { label: "Upper Back Pain" },
+  //   { label: "Spondylolisthesis" },
+  //   { label: "Stenosis" },
+  //   { label: "Headaches With Neck Pain" },
+  //   { label: "Facet Joint Arthropathy" },
+  //   { label: "Back Pain In Children" },
+  //   { label: "Ankylosing Spondylitis" },
+  //   { label: "Spinal Canal Stenosis" },
+  //   { label: "Lumbar Spinal Stenosis" },
+  // ];
 
   const displayedConditions = showAll ? conditions : conditions.slice(0, 16);
 
