@@ -1,11 +1,22 @@
 import React, { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import { FiMenu, FiX } from "react-icons/fi"; // Import icons from React Icons
+import { ConditionsData, blogsData } from "./ConditionsData";
+import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [openDropdown, setOpenDropdown] = useState(null);
   const dropdownRefs = useRef([]);
+  const navigate = useNavigate();
+
+  const handleCardClick = (blog) => {
+    console.log(blog);
+    navigate("/blogs", { state: { selectedBlog: blog } });
+    window.location.reload();
+
+    setOpenDropdown(null);
+  };
 
   const menuItems = [
     { label: "Home", path: "/" },
@@ -20,38 +31,7 @@ const Navbar = () => {
     },
     {
       label: "Conditions We Treat",
-      subItems: [
-        { label: "Back Pain" },
-        { label: "Lower Back Pain" },
-        { label: "Neck Pain" },
-        { label: "Slipped Disc" },
-        { label: "Cervical Spinal Canal Stenosis" },
-        { label: "Spondylitis" },
-        { label: "Spondylosis" },
-        { label: "Sciatica" },
-        { label: "Disc Bulge" },
-        { label: "Degenerative Disc Disease" },
-        { label: "Scoliosis" },
-        { label: "Spinal Arthritis" },
-        { label: "Osteoporosis" },
-        { label: "Pelvic Girdle Pain" },
-        { label: "Piriformis Syndrome" },
-        { label: "Sacroiliac Joint Dysfunction" },
-        { label: "Kyphosis" },
-        { label: "Disc Sequestration" },
-        { label: "Fibromyalgia" },
-        { label: "Spondyloarthropathies" },
-        { label: "Pregnancy Back Pain" },
-        { label: "Upper Back Pain" },
-        { label: "Spondylolisthesis" },
-        { label: "Stenosis" },
-        { label: "Headaches With Neck Pain" },
-        { label: "Facet Joint Arthropathy" },
-        { label: "Back Pain In Children" },
-        { label: "Ankylosing Spondylitis" },
-        { label: "Spinal Canal Stenosis" },
-        { label: "Lumbar Spinal Stenosis" },
-      ],
+      subItems: [...ConditionsData],
     },
     { label: "About Us", path: "/about" },
     { label: "Blog", path: "/blogs" },
@@ -127,13 +107,19 @@ const Navbar = () => {
                       }`}
                     >
                       {item.subItems.map((subItem, subIndex) => (
-                        <Link
+                        <div
                           key={subIndex}
-                          to="#"
-                          className="block px-2 py-1 text-sm text-gray-700 hover:text-amber-300 font-semibold"
+                          className="block px-2 py-1 text-sm text-gray-700 hover:text-amber-300 font-semibold cursor-pointer"
+                          onClick={() =>
+                            handleCardClick(
+                              blogsData.filter(
+                                (blog) => subItem.id === blog.id
+                              )[0]
+                            )
+                          }
                         >
                           {subItem.label}
-                        </Link>
+                        </div>
                       ))}
                     </div>
                   )}
@@ -171,13 +157,19 @@ const Navbar = () => {
                       {openDropdown === index && (
                         <div className="pl-4 mt-2 max-h-56 overflow-y-auto">
                           {item.subItems.map((subItem, subIndex) => (
-                            <Link
+                            <div
                               key={subIndex}
-                              to="#"
-                              className="block px-2 py-1 text-sm text-gray-700 hover:text-amber-300 font-semibold"
+                              className="block px-2 py-1 text-sm text-gray-700 hover:text-amber-300 font-semibold cursor-pointer"
+                              onClick={() =>
+                                handleCardClick(
+                                  blogsData.filter(
+                                    (blog) => subItem.id === blog.id
+                                  )[0]
+                                )
+                              }
                             >
                               {subItem.label}
-                            </Link>
+                            </div>
                           ))}
                         </div>
                       )}

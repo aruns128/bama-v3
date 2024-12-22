@@ -10,8 +10,8 @@ import {
 } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 import GoogleReviews from "./GoogleReview";
-import { ConditionsData as conditions } from "./ConditionsData";
-
+import { ConditionsData as conditions, blogsData } from "./ConditionsData";
+import SEO from "./SEO";
 const Home = () => {
   const sliderRef = useRef(null);
   const navigate = useNavigate();
@@ -19,39 +19,6 @@ const Home = () => {
   const [selectedVideo, setSelectedVideo] = useState(
     "https://www.youtube.com/embed/QV0JqnKRxIc?si=iS4zj9YWm-9W9pmC"
   );
-
-  // const conditions = [
-  //   { label: "Back Pain" },
-  //   { label: "Lower Back Pain" },
-  //   { label: "Neck Pain" },
-  //   { label: "Slipped Disc" },
-  //   { label: "Cervical Spinal Canal Stenosis" },
-  //   { label: "Spondylitis" },
-  //   { label: "Spondylosis" },
-  //   { label: "Sciatica" },
-  //   { label: "Disc Bulge" },
-  //   { label: "Degenerative Disc Disease" },
-  //   { label: "Scoliosis" },
-  //   { label: "Spinal Arthritis" },
-  //   { label: "Osteoporosis" },
-  //   { label: "Pelvic Girdle Pain" },
-  //   { label: "Piriformis Syndrome" },
-  //   { label: "Sacroiliac Joint Dysfunction" },
-  //   { label: "Kyphosis" },
-  //   { label: "Disc Sequestration" },
-  //   { label: "Fibromyalgia" },
-  //   { label: "Spondyloarthropathies" },
-  //   { label: "Pregnancy Back Pain" },
-  //   { label: "Upper Back Pain" },
-  //   { label: "Spondylolisthesis" },
-  //   { label: "Stenosis" },
-  //   { label: "Headaches With Neck Pain" },
-  //   { label: "Facet Joint Arthropathy" },
-  //   { label: "Back Pain In Children" },
-  //   { label: "Ankylosing Spondylitis" },
-  //   { label: "Spinal Canal Stenosis" },
-  //   { label: "Lumbar Spinal Stenosis" },
-  // ];
 
   const displayedConditions = showAll ? conditions : conditions.slice(0, 16);
 
@@ -98,10 +65,20 @@ const Home = () => {
     },
   ];
 
+  const handleCardClick = (blog) => {
+    navigate("/blogs", { state: { selectedBlog: blog } });
+  };
+
   return (
     <div>
       {/* Section 1: Image Slider */}
       <section className="bg-gray-100 py-6 z-1 mt-24 relative">
+        <SEO
+          title="Dr. Bama Spine Care - Trusted Spine Treatment"
+          description="Dr. Bama Spine Care offers effective spine care treatments in Ernakulam, specializing in back pain and spine disorders."
+          keywords="spine care, back pain treatment, Dr. Bama, spine clinic, spine disorders"
+          canonical="https://www.drbamaspinecare.com"
+        />
         <div className="container mx-auto flex flex-col lg:flex-row items-center">
           {/* Left Custom Arrow */}
           <div className="absolute left-4 z-10 top-1/2 transform -translate-y-1/2 flex flex-col gap-4 sm:left-2">
@@ -186,31 +163,11 @@ const Home = () => {
             Blogs
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {[
-              {
-                title: "Blog Title 1",
-                subtitle: "Subtitle 1",
-                image: "/sample_image_3.jpg",
-              },
-              {
-                title: "Blog Title 2",
-                subtitle: "Subtitle 2",
-                image: "/sample_image_1.jpg",
-              },
-              {
-                title: "Blog Title 3",
-                subtitle: "Subtitle 3",
-                image: "/sample_image_1.jpg",
-              },
-              {
-                title: "Blog Title 4",
-                subtitle: "Subtitle 4",
-                image: "/sample_image_2.jpg",
-              },
-            ].map((blog, index) => (
+            {blogsData.slice(0, 4).map((blog, index) => (
               <div
                 key={index}
                 className="relative group bg-cover bg-center h-96 rounded-lg overflow-hidden"
+                onClick={() => handleCardClick(blog)}
               >
                 {/* Zoom-Out Effect */}
                 <div
@@ -224,7 +181,6 @@ const Home = () => {
                 {/* Title and Subtitle */}
                 <div className="absolute bottom-4 left-4 text-white">
                   <h3 className="text-lg font-bold">{blog.title}</h3>
-                  <p className="text-sm">{blog.subtitle}</p>
                 </div>
 
                 {/* Right Arrow Icon */}
@@ -259,6 +215,11 @@ const Home = () => {
               <div
                 key={index}
                 className="flex items-center justify-between bg-white p-4 shadow-md rounded-lg hover:bg-gray-50 transition-all cursor-pointer group"
+                onClick={() =>
+                  handleCardClick(
+                    blogsData.filter((blog) => condition.id === blog.id)[0]
+                  )
+                }
               >
                 {/* Text */}
                 <span className="text-gray-800 text-lg group-hover:text-amber-500 transition-colors">
