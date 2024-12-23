@@ -3,7 +3,6 @@ import { MdCategory } from "react-icons/md";
 import { BiTimeFive } from "react-icons/bi";
 
 import { GrArticle } from "react-icons/gr";
-import { PiSubtitles } from "react-icons/pi";
 
 const BlogRenderer = ({ data }) => {
   return (
