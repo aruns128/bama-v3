@@ -1,0 +1,67 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 300 300"
+  class="mx-auto w-40"
+>
+  <g fill="none" stroke-width="2">
+    <!-- Magnifying Glass Handle -->
+    <path
+      d="M180 180 L250 250"
+      stroke="#FFB74D"
+      stroke-linecap="round"
+    ></path>
+
+    <!-- Magnifying Glass Circle -->
+    <circle
+      cx="150"
+      cy="150"
+      r="50"
+      stroke="#FF7043"
+      fill="none"
+    ></circle>
+
+    <!-- Inner Circle for Depth -->
+    <circle
+      cx="150"
+      cy="150"
+      r="40"
+      stroke="#FFE0B2"
+      fill="none"
+    ></circle>
+  </g>
+
+  <!-- Background Dots -->
+  <g fill="#E0E0E0">
+    <circle cx="80" cy="80" r="3"></circle>
+    <circle cx="50" cy="200" r="3"></circle>
+    <circle cx="250" cy="70" r="3"></circle>
+    <circle cx="220" cy="250" r="3"></circle>
+  </g>
+
+  <!-- Sad Face -->
+  <g>
+    <!-- Eyes -->
+    <circle cx="140" cy="140" r="3" fill="#FF7043"></circle>
+    <circle cx="160" cy="140" r="3" fill="#FF7043"></circle>
+
+    <!-- Mouth -->
+    <path
+      d="M135 165 Q150 175 165 165"
+      stroke="#FF7043"
+      stroke-width="2"
+      fill="none"
+    ></path>
+  </g>
+
+  <!-- Text -->
+  <text
+    x="50%"
+    y="280"
+    font-size="12"
+    fill="#9E9E9E"
+    font-family="Arial, sans-serif"
+    text-anchor="middle"
+  >
+    Sorry, no results found!
+  </text>
+</svg>

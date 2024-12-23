@@ -1,41 +1,189 @@
 export const ConditionsData = [
-  { id: 1, label: "Gallstones" },
-  { id: 2, label: "Hepatic Coma" },
-  { id: 3, label: "Hepatitis" },
-  { id: 4, label: "Jaundice" },
-  { id: 5, label: "Liver Enlargement" },
-  { id: 6, label: "Fatty Liver" },
-  { id: 7, label: "Liver Cirrhosis" },
-  { id: 8, label: "Insomnia (Sleeplessness)" },
-  { id: 9, label: "Pelvic Inflammatory Disease" },
-  { id: 10, label: "Avascular Necrosis" },
-  { id: 11, label: "Knee Pain" },
-  { id: 12, label: "Uric Acid Pain" },
-  { id: 13, label: "Ligament Fracture" },
-  { id: 14, label: "Walking Abnormalities" },
-  { id: 15, label: "Severe Menstrual Pain" },
-  { id: 16, label: "Pain After Surgery" },
-  { id: 17, label: "Post-Accidental Pain" },
-  { id: 18, label: "Listhesis" },
-  { id: 19, label: "Parkinson's Disease" },
-  { id: 20, label: "Muscular Dystrophy" },
-  { id: 21, label: "Hemangioma" },
-  { id: 22, label: "Rheumatoid Arthritis" },
-  { id: 23, label: "Anxiety" },
-  { id: 24, label: "Varicose Veins" },
-  { id: 25, label: "Rheumatoid Arthritis" },
-  { id: 26, label: "Numbness" },
-  { id: 27, label: "Fibromyalgia" },
-  { id: 28, label: "Vertigo" },
-  { id: 29, label: "Severe Headache" },
-  { id: 30, label: "Migraine" },
-  { id: 31, label: "Sciatica" },
-  { id: 32, label: "Pelvis Tilting" },
-  { id: 33, label: "Spondylosis" },
-  { id: 34, label: "Stenosis" },
-  { id: 35, label: "Scoliosis" },
-  { id: 36, label: "Cervical Rib" },
-  { id: 37, label: "Back Pain" },
+  {
+    id: 1,
+    label: "Gallstones",
+    description: "Hardened deposits in the gallbladder causing pain.",
+  },
+  {
+    id: 2,
+    label: "Hepatic Coma",
+    description: "Severe liver dysfunction leading to altered mental status.",
+  },
+  {
+    id: 3,
+    label: "Hepatitis",
+    description: "Inflammation of the liver often caused by infection.",
+  },
+  {
+    id: 4,
+    label: "Jaundice",
+    description: "Yellowing of the skin and eyes due to liver issues.",
+  },
+  {
+    id: 5,
+    label: "Liver Enlargement",
+    description: "Swelling of the liver indicating underlying conditions.",
+  },
+  {
+    id: 6,
+    label: "Fatty Liver",
+    description: "Excess fat accumulation in liver cells.",
+  },
+  {
+    id: 7,
+    label: "Liver Cirrhosis",
+    description: "Scarring of the liver from long-term damage.",
+  },
+  {
+    id: 8,
+    label: "Insomnia (Sleeplessness)",
+    description: "Difficulty falling or staying asleep.",
+  },
+  {
+    id: 9,
+    label: "Pelvic Inflammatory Disease",
+    description: "Infection of the female reproductive organs.",
+  },
+  {
+    id: 10,
+    label: "Avascular Necrosis",
+    description: "Bone tissue death caused by reduced blood flow.",
+  },
+  {
+    id: 11,
+    label: "Knee Pain",
+    description: "Discomfort or pain in the knee joint.",
+  },
+  {
+    id: 12,
+    label: "Uric Acid Pain",
+    description: "Joint pain caused by excess uric acid buildup.",
+  },
+  {
+    id: 13,
+    label: "Ligament Fracture",
+    description: "Tearing of the connective tissue around joints.",
+  },
+  {
+    id: 14,
+    label: "Walking Abnormalities",
+    description: "Disrupted or irregular gait patterns.",
+  },
+  {
+    id: 15,
+    label: "Severe Menstrual Pain",
+    description: "Intense pain during menstruation.",
+  },
+  {
+    id: 16,
+    label: "Pain After Surgery",
+    description: "Post-operative discomfort or pain.",
+  },
+  {
+    id: 17,
+    label: "Post-Accidental Pain",
+    description: "Pain following physical trauma or injury.",
+  },
+  {
+    id: 18,
+    label: "Listhesis",
+    description: "Displacement of a vertebra in the spine.",
+  },
+  {
+    id: 19,
+    label: "Parkinson's Disease",
+    description: "Neurological disorder affecting movement and balance.",
+  },
+  {
+    id: 20,
+    label: "Muscular Dystrophy",
+    description: "Genetic disorder causing muscle weakness.",
+  },
+  {
+    id: 21,
+    label: "Hemangioma",
+    description: "Noncancerous growth of blood vessels in the body.",
+  },
+  {
+    id: 22,
+    label: "Rheumatoid Arthritis",
+    description: "Autoimmune disorder causing joint inflammation.",
+  },
+  {
+    id: 23,
+    label: "Anxiety",
+    description: "Persistent feelings of worry or fear.",
+  },
+  {
+    id: 24,
+    label: "Varicose Veins",
+    description: "Swollen, twisted veins often in the legs.",
+  },
+  {
+    id: 25,
+    label: "Rheumatoid Arthritis",
+    description: "Autoimmune disorder causing joint pain and swelling.",
+  },
+  {
+    id: 26,
+    label: "Numbness",
+    description: "Loss of sensation in a part of the body.",
+  },
+  {
+    id: 27,
+    label: "Fibromyalgia",
+    description: "Chronic condition causing widespread pain.",
+  },
+  {
+    id: 28,
+    label: "Vertigo",
+    description: "Dizziness with a spinning sensation.",
+  },
+  {
+    id: 29,
+    label: "Severe Headache",
+    description: "Intense pain in the head or neck region.",
+  },
+  {
+    id: 30,
+    label: "Migraine",
+    description: "Severe headache often with nausea and light sensitivity.",
+  },
+  {
+    id: 31,
+    label: "Sciatica",
+    description: "Pain radiating along the sciatic nerve.",
+  },
+  {
+    id: 32,
+    label: "Pelvis Tilting",
+    description: "Misalignment of the pelvis causing discomfort.",
+  },
+  {
+    id: 33,
+    label: "Spondylosis",
+    description: "Degenerative changes in the spine.",
+  },
+  {
+    id: 34,
+    label: "Stenosis",
+    description: "Narrowing of spaces in the spine.",
+  },
+  {
+    id: 35,
+    label: "Scoliosis",
+    description: "Sideways curvature of the spine.",
+  },
+  {
+    id: 36,
+    label: "Cervical Rib",
+    description: "Extra rib in the neck region causing nerve issues.",
+  },
+  {
+    id: 37,
+    label: "Back Pain",
+    description: "Pain or discomfort in the back region.",
+  },
 ]
   .slice()
   .reverse();
@@ -45,6 +193,7 @@ export const blogsData = [
     id: 1,
     title: "Gallstones: Causes and Description",
     image: "https://via.placeholder.com/800x400",
+    description: "Hardened deposits in the gallbladder causing pain.",
     sections: [
       {
         type: "paragraph",
@@ -131,6 +280,7 @@ export const blogsData = [
     id: 2,
     title: "Hepatic Coma: Description, Causes, and Symptoms",
     image: "https://via.placeholder.com/800x400",
+    description: "Severe liver dysfunction leading to altered mental status.",
     sections: [
       {
         type: "heading",
@@ -255,6 +405,7 @@ export const blogsData = [
     id: 3,
     title: "Hepatitis Overview",
     image: "https://via.placeholder.com/800x400",
+    description: "Inflammation of the liver often caused by infection.",
     sections: [
       {
         type: "heading",
@@ -489,6 +640,7 @@ export const blogsData = [
     id: 4,
     title: "Jaundice Overview",
     image: "https://via.placeholder.com/800x400",
+    description: "Yellowing of the skin and eyes due to liver issues.",
     sections: [
       {
         type: "heading",
@@ -551,6 +703,7 @@ export const blogsData = [
     id: 5,
     title: "Liver Enlargement (Hepatomegaly) Overview",
     image: "https://via.placeholder.com/800x400",
+    description: "Swelling of the liver indicating underlying conditions.",
     sections: [
       {
         type: "heading",
@@ -742,6 +895,7 @@ export const blogsData = [
     id: 6,
     title: "Fatty Liver (Hepatic Steatosis) Overview",
     image: "https://via.placeholder.com/800x400",
+    description: "Excess fat accumulation in liver cells.",
     sections: [
       {
         type: "heading",
@@ -852,6 +1006,7 @@ export const blogsData = [
     id: 7,
     title: "Liver Cirrhosis Overview",
     image: "https://via.placeholder.com/800x400",
+    description: "Scarring of the liver from long-term damage.",
     sections: [
       {
         type: "heading",
@@ -1020,6 +1175,7 @@ export const blogsData = [
     id: 8,
     title: "Insomnia (Sleeplessness) Overview",
     image: "https://via.placeholder.com/800x400",
+    description: "Difficulty falling or staying asleep.",
     sections: [
       {
         type: "heading",
@@ -1139,6 +1295,7 @@ export const blogsData = [
     id: 9,
     title: "Pelvic Inflammatory Disease (PID) Overview",
     image: "https://via.placeholder.com/800x400",
+    description: "Infection of the female reproductive organs.",
     sections: [
       {
         type: "heading",
@@ -1250,6 +1407,7 @@ export const blogsData = [
     id: 10,
     title: "Avascular Necrosis (AVN) of the Hip",
     image: "https://via.placeholder.com/800x400",
+    description: "Bone tissue death caused by reduced blood flow.",
     sections: [
       {
         type: "heading",
@@ -1361,6 +1519,7 @@ export const blogsData = [
     id: 11,
     title: "Knee Pain (Knee Replacement Stage)",
     image: "https://via.placeholder.com/800x400",
+    description: "Discomfort or pain in the knee joint.",
     sections: [
       {
         type: "heading",
@@ -1428,6 +1587,7 @@ export const blogsData = [
     id: 12,
     title: "Uric Acid Pain",
     image: "https://via.placeholder.com/800x400",
+    description: "Joint pain caused by excess uric acid buildup.",
     sections: [
       {
         type: "heading",
@@ -1492,6 +1652,7 @@ export const blogsData = [
     id: 13,
     title: "Ligament Fracture",
     image: "https://via.placeholder.com/800x400",
+    description: "Tearing of the connective tissue around joints.",
     sections: [
       {
         type: "heading",
@@ -1557,6 +1718,7 @@ export const blogsData = [
     id: 14,
     title: "Walking Abnormalities",
     image: "https://via.placeholder.com/800x400",
+    description: "Disrupted or irregular gait patterns.",
     sections: [
       {
         type: "heading",
@@ -1680,6 +1842,7 @@ export const blogsData = [
     id: 15,
     title: "Severe Menstrual Pain (Dysmenorrhea)",
     image: "https://via.placeholder.com/800x400",
+    description: "Intense pain during menstruation.",
     sections: [
       {
         type: "heading",
@@ -1773,6 +1936,7 @@ export const blogsData = [
     id: 16,
     title: "Pain After Surgery",
     image: "https://via.placeholder.com/800x400",
+    description: "Post-operative discomfort or pain.",
     sections: [
       {
         type: "heading",
@@ -1850,6 +2014,7 @@ export const blogsData = [
     id: 17,
     title: "Post-Accidental Pain",
     image: "https://via.placeholder.com/800x400",
+    description: "Pain following physical trauma or injury.",
     sections: [
       {
         type: "heading",
@@ -1987,6 +2152,7 @@ export const blogsData = [
     id: 18,
     title: "Listhesis",
     image: "https://via.placeholder.com/800x400",
+    description: "Displacement of a vertebra in the spine.",
     sections: [
       {
         type: "heading",
@@ -2058,6 +2224,7 @@ export const blogsData = [
     id: 19,
     title: "Parkinson's Disease",
     image: "https://via.placeholder.com/800x400",
+    description: "Neurological disorder affecting movement and balance.",
     sections: [
       {
         type: "heading",
@@ -2139,6 +2306,7 @@ export const blogsData = [
   {
     id: 20,
     title: "Muscular Dystrophy (MD): Overview, Causes, and Symptoms",
+    description: "Genetic disorder causing muscle weakness.",
     image: "https://via.placeholder.com/800x400",
     sections: [
       {
@@ -2260,6 +2428,7 @@ export const blogsData = [
     id: 21,
     title: "Hemangioma: Description, Causes, and Symptoms",
     image: "https://via.placeholder.com/800x400",
+    description: "Noncancerous growth of blood vessels in the body.",
     sections: [
       {
         type: "heading",
@@ -2376,6 +2545,7 @@ export const blogsData = [
     id: 22,
     title: "Rheumatoid Arthritis (RA)",
     image: "https://via.placeholder.com/800x400",
+    description: "Autoimmune disorder causing joint inflammation.",
     sections: [
       {
         type: "heading",
@@ -2518,6 +2688,7 @@ export const blogsData = [
     id: 23,
     title: "Anxiety",
     image: "https://via.placeholder.com/800x400",
+    description: "Persistent feelings of worry or fear.",
     sections: [
       {
         type: "heading",
@@ -2628,6 +2799,7 @@ export const blogsData = [
     id: 24,
     title: "Varicose Veins",
     image: "https://via.placeholder.com/800x400",
+    description: "Swollen, twisted veins often in the legs.",
     sections: [
       {
         type: "heading",
@@ -2708,6 +2880,7 @@ export const blogsData = [
   {
     id: 25,
     title: "Rheumatoid Arthritis: Description, Causes, and Symptoms",
+    description: "Autoimmune disorder causing joint pain and swelling.",
     image: "https://via.placeholder.com/800x400",
     sections: [
       {
@@ -2845,6 +3018,7 @@ export const blogsData = [
     id: 26,
     title: "Numbness: Overview, Causes, and Symptoms",
     image: "https://via.placeholder.com/800x400",
+    description: "Loss of sensation in a part of the body.",
     sections: [
       {
         type: "heading",
@@ -3002,6 +3176,7 @@ export const blogsData = [
   {
     id: 27,
     title: "Fibromyalgia: Overview, Causes, and Symptoms",
+    description: "Chronic condition causing widespread pain.",
     image: "https://via.placeholder.com/800x400",
     sections: [
       {
@@ -3178,6 +3353,7 @@ export const blogsData = [
   {
     id: 28,
     title: "Vertigo: Description, Causes, Symptoms, and Treatment",
+    description: "Dizziness with a spinning sensation.",
     image: "https://via.placeholder.com/800x400",
     sections: [
       {
@@ -3294,6 +3470,7 @@ export const blogsData = [
   {
     id: 29,
     title: "Severe Headache: Description, Causes, Symptoms, and Treatment",
+    description: "Intense pain in the head or neck region.",
     image: "https://via.placeholder.com/800x400",
     sections: [
       {
@@ -3419,6 +3596,7 @@ export const blogsData = [
     id: 30,
     title: "Migraine: Description, Causes, Symptoms, and Treatment",
     image: "https://via.placeholder.com/800x400",
+    description: "Severe headache often with nausea and light sensitivity.",
     sections: [
       {
         type: "heading",
@@ -3531,6 +3709,7 @@ export const blogsData = [
   {
     id: 31,
     title: "Sciatica: Description, Causes, and Symptoms",
+    description: "Pain radiating along the sciatic nerve.",
     image: "https://via.placeholder.com/800x400",
     sections: [
       {
@@ -3601,6 +3780,7 @@ export const blogsData = [
   {
     id: 32,
     title: "Pelvis Tilting: Overview, Causes, Symptoms, and Treatment",
+    description: "Misalignment of the pelvis causing discomfort.",
     image: "https://via.placeholder.com/800x400",
     sections: [
       {
@@ -3726,6 +3906,7 @@ export const blogsData = [
     id: 33,
     title: "Spondylosis: Description, Causes, Symptoms, and Treatment",
     image: "https://via.placeholder.com/800x400",
+    description: "Degenerative changes in the spine.",
     sections: [
       {
         type: "heading",
@@ -3800,6 +3981,7 @@ export const blogsData = [
     id: 34,
     title: "Stenosis: Overview, Causes, Symptoms, and Treatment",
     image: "https://via.placeholder.com/800x400",
+    description: "Narrowing of spaces in the spine.",
     sections: [
       {
         type: "heading",
@@ -3941,6 +4123,7 @@ export const blogsData = [
   {
     id: 35,
     title: "Scoliosis: Overview, Causes, Symptoms, and Treatment",
+    description: "Sideways curvature of the spine.",
     image: "https://via.placeholder.com/800x400",
     sections: [
       {
@@ -4091,6 +4274,7 @@ export const blogsData = [
   {
     id: 36,
     title: "Cervical Rib: Overview, Causes, Symptoms, and Treatment",
+    description: "Extra rib in the neck region causing nerve issues.",
     image: "https://via.placeholder.com/800x400",
     sections: [
       {
@@ -4204,6 +4388,7 @@ export const blogsData = [
   {
     id: 37,
     title: "Back Pain: Overview, Causes, and Symptoms",
+    description: "Pain or discomfort in the back region.",
     image: "https://via.placeholder.com/800x400",
     sections: [
       {

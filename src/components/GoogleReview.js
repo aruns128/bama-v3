@@ -10,42 +10,42 @@ const reviews = [
     description:
       "My wife had been suffering from disc-related back pain for 10 years. We tried various treatments like chiropractic and physiotherapy, but the relief was always temporary. The pain worsened, leaving her bedridden for weeks. While on vacation in India, a family friend recommended Bama Spine Care. Dr. Bama assessed her condition in Chennai and arranged a 7-8 days of treatment with 21 sittings in Cochin. After daily sessions, she felt significant relief, and it's now been 3 months with no pain. The treatment was not only effective but also cost-efficient and quick. I highly recommend Bama Spine Care for anyone with back pain.",
     reviewerName: "Raj Kumar",
-    reviewLink: "https://www.google.com/maps/place/QI+Spine+Care",
+    reviewLink: "https://g.co/kgs/B1RMbkx",
   },
   {
     rating: 5.0,
     description:
       "I came with a back pain and was having pains throughout the day. But I came across this centre and it gave me so much relief. The service has been great both from the Doctors and staff. I have already recommended my cousin to this place keep up the great work 👏",
     reviewerName: "Janson james",
-    reviewLink: "https://www.google.com/maps/place/QI+Spine+Care",
+    reviewLink: "https://g.co/kgs/B1RMbkx",
   },
   {
     rating: 5.0,
     description:
       "I had severe disc prolapse with pelvic tilt and became completely bedridden for three weeks. I tried allopathy treatment but it didn't work well and the doctors suggested me to take surgical treatment. Later through a family friend Mr.Sathish I came to know about Dr. Bama and her spine care clinic. In my first two sittings I started walking with a walker and later I came to stay near their clinic to complete full treatment and i recovered completely after 21 sittings. Thanks to Dr. Bama's Spine Care Clinic!",
     reviewerName: "Isac Sugance",
-    reviewLink: "https://www.google.com/maps/place/QI+Spine+Care",
+    reviewLink: "https://g.co/kgs/B1RMbkx",
   },
   {
     rating: 5.0,
     description:
       "Exceptional Care and Life-Changing Results! I was struggling with numbness in my hand, which disrupted my daily life and even made sleeping impossible. Desperate for relief, I turned to Bhama Spine Centre. Dr Bama & Dr. Suresh & their expert team diagnosed and treated my condition with compassion and professionalism. Thanks to their successful treatment, I'm now living pain-free and enjoying restful sleep! The numbness has completely subsided, and I've regained control over my daily activities. Bhama Spine Centre's dedication to patient care and cutting-edge treatments truly impressed me. I highly recommend them to anyone seeking effective and caring spinal care.",
     reviewerName: "Jincy binoy",
-    reviewLink: "https://www.google.com/maps/place/QI+Spine+Care",
+    reviewLink: "https://g.co/kgs/B1RMbkx",
   },
   {
     rating: 5.0,
     description:
       "Unbelievable... it's a miracle... my rebirth... Such a gud treatment for my NECK pain.. 14yrs old pain suddenly resolve...in 21 days.. so I'm kindly thankful Dr BAMA and her supporting staff... every staff taking a ultimate effort my treatment..  speechless.. again Thank u so so much... God bless you everyone",
     reviewerName: "Ratheesh R",
-    reviewLink: "https://www.google.com/maps/place/QI+Spine+Care",
+    reviewLink: "https://g.co/kgs/B1RMbkx",
   },
   {
     rating: 5.0,
     description:
       "I highly recommend this place for pain management and relief..Moreover they are giving very kind and caring services …very much satisfied with their treatment😊😊😊 Atlast best place for all our spinal cord issues …",
     reviewerName: "AKASH BELWIN M",
-    reviewLink: "https://www.google.com/maps/place/QI+Spine+Care",
+    reviewLink: "https://g.co/kgs/B1RMbkx",
   },
 ];
 

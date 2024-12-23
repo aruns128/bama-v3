@@ -79,6 +79,17 @@ const Home = () => {
           keywords="spine care, back pain treatment, Dr. Bama, spine clinic, spine disorders"
           canonical="https://www.drbamaspinecare.com"
         />
+        <SEO
+          title="Dr. Bama Spine Care - Trusted Spine Treatment"
+          description="With over 32 years of experience in spine care treatment, we at Bama
+            Spine Care are dedicated to providing effective and personalized
+            solutions for a wide range of spinal and musculoskeletal conditions.
+            Our expertise lies in merging the ancient wisdom of Ayurveda with
+            the latest advancements in modern medical technology, ensuring that
+            our patients receive the highest standard of care."
+          keywords="spine care clinics, locations, Dr. Bama spine, back pain clinics"
+          canonical="https://www.drbamaspinecare.com/locations"
+        />
         <div className="container mx-auto flex flex-col lg:flex-row items-center">
           {/* Left Custom Arrow */}
           <div className="absolute left-4 z-10 top-1/2 transform -translate-y-1/2 flex flex-col gap-4 sm:left-2">
@@ -120,15 +131,25 @@ const Home = () => {
           {/* Content: Occupies 25% on large screens */}
           <div className="w-full lg:w-1/4 text-center lg:text-left px-4">
             <h3 className="text-2xl font-bold mb-4 text-gray-900">
-              Section Title
+              Dr.Bama Spine Care
             </h3>
             <p className="text-gray-700">
-              This is some sample content describing the image. You can use this
-              space to highlight key information, add a call-to-action, or
-              describe the visuals in more detail.
-            </p>
-            <button className="mt-4 px-6 py-2 bg-amber-500 text-white rounded-lg shadow-lg hover:bg-amber-600">
-              Learn More
+              With over{" "}
+              <span className="text-xl font-semibold text-amber-600">
+                32 years of experience
+              </span>{" "}
+              in spine care treatment, we at Dr. Bama Spine Care are dedicated
+              to providing effective and personalized solutions for a wide range
+              of spinal and musculoskeletal conditions. Our expertise lies in
+              merging the ancient wisdom of Ayurveda with the latest
+              advancements in modern medical technology, ensuring that our
+              patients receive the highest standard of care.
+            </p>{" "}
+            <button
+              className="mt-4 px-6 py-2 bg-amber-500 text-white rounded-lg shadow-lg hover:bg-amber-600"
+              onClick={() => navigate("locate")}
+            >
+              Contact us
             </button>
           </div>
         </div>
@@ -172,19 +193,24 @@ const Home = () => {
                 {/* Zoom-Out Effect */}
                 <div
                   className="absolute inset-0 bg-cover bg-center transition-transform duration-300 group-hover:scale-105"
-                  style={{ backgroundImage: `url(${blog.image})` }}
+                  style={{
+                    backgroundImage: `url(${`https://picsum.photos/id/${
+                      blog.id + 1
+                    }/400/300`})`,
+                  }}
                 ></div>
 
                 {/* Content Overlay */}
-                <div className="absolute inset-0 bg-black bg-opacity-40 group-hover:bg-opacity-60 transition-all duration-300"></div>
+                <div className="absolute inset-0 bg-black bg-opacity-30 group-hover:bg-opacity-20  transition-all duration-300"></div>
 
                 {/* Title and Subtitle */}
-                <div className="absolute bottom-4 left-4 text-white">
+                <div className="absolute bottom-4 left-4 text-white group-hover:text-amber-600">
                   <h3 className="text-lg font-bold">{blog.title}</h3>
+                  <h3 className="text-sm font-semibold">{blog.description}</h3>
                 </div>
 
                 {/* Right Arrow Icon */}
-                <div className="absolute bottom-4 right-4 text-white opacity-0 group-hover:opacity-100 transition-all duration-300">
+                <div className="absolute bottom-4 right-4 text-white opacity-0 group-hover:opacity-100 transition-all duration-300 group-hover:text-amber-600">
                   <FaChevronRight size={24} />
                 </div>
               </div>

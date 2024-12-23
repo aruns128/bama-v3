@@ -35,7 +35,7 @@ const Navbar = () => {
     },
     { label: "About Us", path: "/about" },
     { label: "Blog", path: "/blogs" },
-    { label: "Locate Us", path: "/locate" },
+    { label: "Locate Us", path: "/locations" },
   ];
 
   const toggleMenu = () => setIsOpen((prev) => !prev);

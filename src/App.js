@@ -8,10 +8,10 @@ import AboutUs from "./components/AboutUs";
 import ConditionsWeTreat from "./components/ConditionsWeTreat";
 import WhyUs from "./components/WhyUs";
 import Blog from "./components/Blog";
-import LocateUs from "./components/LocateUs";
+import LocateUs from "./components/Locations";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
-import { FaInstagram, FaTwitter, FaFacebook } from "react-icons/fa";
+import { FaInstagram, FaStethoscope, FaFacebook } from "react-icons/fa";
 
 function App() {
   return (
@@ -28,7 +28,7 @@ function App() {
             <Route path="/condition_we_treat" element={<ConditionsWeTreat />} />
             <Route path="/about" element={<AboutUs />} />
             <Route path="/blogs" element={<Blog />} />
-            <Route path="/locate" element={<LocateUs />} />
+            <Route path="/locations" element={<LocateUs />} />
           </Routes>
         </main>
 
@@ -52,7 +52,7 @@ function App() {
               <NavLink to="/blogs" className="text-xs py-2 px-4">
                 Blogs
               </NavLink>
-              <NavLink to="/locate" className="text-xs py-2 px-4">
+              <NavLink to="/locations" className="text-xs py-2 px-4">
                 Locations
               </NavLink>
             </div>
@@ -73,26 +73,26 @@ function App() {
             <div className="flex justify-center items-center space-x-4">
               <p className="text-xs">Follow Us</p>
               <a
-                href="https://facebook.com"
+                href="https://www.facebook.com/100087110217227/videos/healthy-spine-healthy-life/844309806698757/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-blue-500 hover:text-blue-300 mx-2"
+                className="text-[#0866FF] hover:text-blue-500 mx-2"
               >
                 <FaFacebook className="w-4 h-4" />
               </a>
               <a
-                href="https://twitter.com"
+                href="https://www.practo.com/ernakulam/clinic/dr-bama-spine-care-ponnurunni/services"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-blue-400 hover:text-blue-300 mx-2"
+                className="text-[#28328c] hover:text-[#3f4bba] mx-2"
               >
-                <FaTwitter className="w-4 h-4" />
+                <FaStethoscope className="w-4 h-4" />
               </a>
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/dr.bama_spine_care/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-pink-500 hover:text-pink-300 mx-2"
+                className="text-pink-900 hover:text-pink-400 mx-2"
               >
                 <FaInstagram className="w-4 h-4" />
               </a>
