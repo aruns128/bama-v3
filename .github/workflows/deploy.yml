@@ -30,7 +30,7 @@ jobs:
           server: ${{ secrets.FTP_HOSTNAME }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          protocol: ftp
+          protocol: sftp # Use sftp if your server only supports SFTP
           port: ${{ secrets.FTP_PORT }}
           local-dir: build/ # Ensure the local directory ends with a slash
           server-dir: public_html/ # Ensure the server directory ends with a slash
