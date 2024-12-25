@@ -27,8 +27,10 @@ jobs:
       - name: Deploy to FTP
         uses: SamKirkland/FTP-Deploy-Action@4.3.0
         with:
-          ftp-server: ftp://${{ secrets.FTP_HOSTNAME }}:${{ secrets.FTP_PORT }}
-          ftp-username: ${{ secrets.FTP_USERNAME }}
-          ftp-password: ${{ secrets.FTP_PASSWORD }}
+          server: ${{ secrets.FTP_HOSTNAME }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          protocol: ftp
+          port: ${{ secrets.FTP_PORT }}
           local-dir: build # This is the default build directory for React apps
-          git-ftp-args: --insecure
+          server-dir: /path/on/ftp/server # Replace with the directory path on your FTP server
