@@ -32,5 +32,5 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           protocol: ftp
           port: ${{ secrets.FTP_PORT }}
-          local-dir: build # This is the default build directory for React apps
-          server-dir: /path/on/ftp/server # Replace with the directory path on your FTP server
+          local-dir: build/ # Ensure the local directory ends with a slash
+          server-dir: public_html # Replace with the directory path on your FTP server
