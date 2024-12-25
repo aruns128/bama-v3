@@ -33,4 +33,4 @@ jobs:
           protocol: ftp
           port: ${{ secrets.FTP_PORT }}
           local-dir: build/ # Ensure the local directory ends with a slash
-          server-dir: public_html # Replace with the directory path on your FTP server
+          server-dir: public_html/ # Ensure the server directory ends with a slash
