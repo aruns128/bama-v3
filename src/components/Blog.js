@@ -43,7 +43,7 @@ const Blog = () => {
       {!selectedBlog && (
         <div className="mb-8 bg-gradient-to-r from-amber-500 to-orange-400 text-white shadow-lg p-8 rounded-lg">
           <div className="flex flex-col lg:flex-row items-center justify-between">
-            <div className="text-3xl font-bold flex items-center gap-2">
+            <div className="lg:text-3xl text-xl font-bold flex items-center gap-2">
               Dr. Bama's Spine Care
             </div>
             <div className="w-full lg:w-1/3 mt-4 lg:mt-0">
