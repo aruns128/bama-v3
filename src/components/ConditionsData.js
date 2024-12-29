@@ -184,6 +184,48 @@ export const ConditionsData = [
     label: "Back Pain",
     description: "Pain or discomfort in the back region.",
   },
+  {
+    id: 38,
+    label: "Chronic Kidney Disease",
+    description:
+      "A long-term condition where the kidneys gradually lose their function over time.",
+  },
+  {
+    id: 39,
+    label: "Prostate Enlargement",
+    description:
+      "Prostate enlargement, also known as benign prostatic hyperplasia (BPH)",
+  },
+  {
+    id: 40,
+    label: "Kidney Failure",
+    description:
+      "Is a chronic condition characterized by bladder pain, pressure, or discomfort, often accompanied by frequent urination and an urgent need to urinate.",
+  },
+  {
+    id: 41,
+    label: "Painful Bladder Syndrome",
+    description:
+      "Is a chronic condition characterized by bladder pain, pressure, or discomfort, often accompanied by frequent urination and an urgent need to urinate. ",
+  },
+  {
+    id: 42,
+    label: "Kidney Enlargement",
+    description:
+      "Increase in the size of one or both kidneys, often due to underlying conditions.",
+  },
+  {
+    id: 43,
+    label: "Kidney Stones",
+    description:
+      "Hard deposits of minerals and salts that form inside the kidneys.",
+  },
+  {
+    id: 44,
+    label: "Kidney Shrinkage",
+    description:
+      "A condition where the kidneys decrease in size and lose their ability to function properly.",
+  },
 ]
   .slice()
   .reverse();
@@ -4580,6 +4622,833 @@ export const blogsData = [
         type: "paragraph",
         content:
           "The effectiveness of our approach is evident in its immediate results—many patients report significant improvements in mobility, pain relief, and overall well-being within just 15 minutes of treatment. By addressing the root cause rather than just the symptoms, we aim to provide long-term relief and a path to optimal health.",
+      },
+    ],
+  },
+  {
+    id: 38,
+    title: "Chronic Kidney Disease (CKD): Overview",
+    image: "https://via.placeholder.com/800x400",
+    description:
+      "A long-term condition where the kidneys gradually lose their function over time.",
+    sections: [
+      {
+        type: "heading",
+        content: "Description",
+      },
+      {
+        type: "paragraph",
+        content:
+          "A long-term condition characterized by the gradual loss of kidney function over time.",
+      },
+      {
+        type: "paragraph",
+        content:
+          "Chronic Kidney Disease (CKD) is a long-term condition characterized by the gradual loss of kidney function over time. The kidneys, responsible for filtering waste, toxins, and excess fluid from the blood, may become damaged and unable to function properly. CKD can progress to kidney failure (end-stage renal disease), requiring dialysis or kidney transplantation.",
+      },
+      {
+        type: "heading",
+        content: "Causes of Chronic Kidney Disease",
+      },
+      {
+        type: "list",
+        items: [
+          "Diabetes: High blood sugar levels damage the blood vessels in the kidneys over time, leading to diabetic nephropathy.",
+          "Hypertension (High Blood Pressure): Elevated blood pressure puts stress on kidney blood vessels, impairing their ability to function.",
+          "Glomerulonephritis: Inflammation of the kidney’s filtering units (glomeruli), often due to autoimmune or infectious causes.",
+          "Polycystic Kidney Disease (PKD): A genetic disorder causing fluid-filled cysts to grow in the kidneys, disrupting their function.",
+          "Obstructive Causes: Chronic obstruction of the urinary tract, such as kidney stones, enlarged prostate, or tumors.",
+          "Repeated Kidney Infections: Conditions like pyelonephritis can cause permanent kidney damage over time.",
+          "Drug Toxicity: Long-term use of certain medications like NSAIDs, or exposure to nephrotoxic substances, can harm the kidneys.",
+          "Autoimmune Diseases: Conditions such as lupus nephritis or vasculitis that involve immune system attacks on kidney tissue.",
+          "Family History: A family history of CKD increases the likelihood of developing the condition.",
+        ],
+      },
+      {
+        type: "heading",
+        content: "Symptoms of Chronic Kidney Disease",
+      },
+      {
+        type: "list",
+        items: [
+          "Fatigue and Weakness: Caused by anemia and reduced kidney function.",
+          "Swelling (Edema): Fluid retention in the legs, ankles, feet, or face.",
+          "Changes in Urination: Frequent urination, especially at night, or reduced urine output.",
+          "Blood in Urine: Pink or dark-colored urine indicating kidney damage.",
+          "Foamy Urine: Excess protein in the urine.",
+          "Shortness of Breath: Caused by fluid buildup in the lungs or anemia.",
+          "Nausea and Vomiting: Due to waste buildup in the blood (uremia).",
+          "Loss of Appetite: A common symptom as kidney function declines.",
+          "Itchy Skin: Resulting from waste accumulation in the bloodstream.",
+          "Muscle Cramps: Caused by imbalances in electrolytes like calcium and potassium.",
+          "High Blood Pressure: A symptom and a contributing factor in CKD.",
+          "Difficulty Concentrating: Resulting from the effects of uremia or anemia.",
+        ],
+      },
+      {
+        type: "heading",
+        content: "Treatment",
+      },
+      {
+        type: "paragraph",
+        content:
+          "At Dr. Bama Spine Care, we take a holistic approach to treating kidney diseases by addressing their root causes rather than just managing symptoms. Our specialized treatment combines the power of herbal internal and external medicines with advanced techniques to restore kidney health effectively.",
+      },
+      {
+        type: "heading",
+        content: "Why Spinal Health Matters for Kidney Function",
+      },
+      {
+        type: "paragraph",
+        content:
+          "The kidneys are closely linked to the autonomic nervous system, which plays a crucial role in regulating their function. The nerves that supply the kidneys originate from the renal plexus, with fibers stemming from the thoracic (T10) to lumbar (L2) vertebrae. These nerve connections are essential for smooth communication between the brain and kidneys, ensuring optimal performance.",
+      },
+      {
+        type: "paragraph",
+        content:
+          "At Dr. Bama Spine Care, we understand the significance of spinal alignment in maintaining this delicate balance. Misalignments or disruptions in the T10 to L4 spinal region can compromise nerve function, potentially leading to kidney dysfunction or exacerbating existing conditions.",
+      },
+      {
+        type: "heading",
+        content: "Our Approach to Kidney Health",
+      },
+      {
+        type: "list",
+        items: [
+          "Herbal Medicine: We utilize potent herbal formulations for both internal and external application. These time-tested remedies work to cleanse, heal, and rejuvenate the kidneys, promoting natural recovery without harmful side effects.",
+          "Spinal Alignment and Correction: Our team focuses on correcting misalignments in the T10 to L4 region, targeting the root cause of nerve-related kidney issues. By restoring proper spinal alignment, we ensure that the autonomic nerves supplying the kidneys function without interference, enhancing kidney performance and overall health.",
+          "Personalized Care: Every patient is unique, and so is their treatment. We develop customized plans that address individual needs, combining traditional herbal remedies, Ayurvedic therapies, and modern spinal correction techniques to deliver optimal results.",
+        ],
+      },
+      {
+        type: "heading",
+        content: "The Dr. Bama Spine Care Advantage",
+      },
+      {
+        type: "list",
+        items: [
+          "Holistic Treatment: We treat the body as a whole, addressing both the physical and internal causes of kidney issues.",
+          "Focus on Root Causes: By correcting spinal misalignments and improving nerve function, we provide long-lasting relief and recovery.",
+          "Safe and Natural: Our herbal treatments are free from harmful chemicals, ensuring a safe healing process.",
+        ],
+      },
+      {
+        type: "paragraph",
+        content:
+          "If you’re struggling with kidney-related issues, Dr. Bama Spine Care offers a unique and effective solution that targets the root cause. Our combination of powerful herbal treatments and precise spinal correction ensures a comprehensive approach to kidney health.",
+      },
+    ],
+  },
+  {
+    id: 39,
+    title: "Prostate Enlargement (Benign Prostatic Hyperplasia - BPH)",
+    image: "https://via.placeholder.com/800x400",
+    description:
+      "A non-cancerous increase in the size of the prostate gland, leading to urinary symptoms.",
+    sections: [
+      {
+        type: "heading",
+        content: "Description",
+      },
+      {
+        type: "paragraph",
+        content:
+          "A non-cancerous increase in the size of the prostate gland, leading to urinary symptoms.",
+      },
+      {
+        type: "heading",
+        content: "Causes of Prostate Enlargement",
+      },
+      {
+        type: "list",
+        items: [
+          "Aging: The most common cause of BPH. Hormonal changes, such as increased dihydrotestosterone (DHT) levels, play a significant role.",
+          "Hormonal Imbalance: A decrease in testosterone and an increase in estrogen levels can contribute to prostate growth.",
+          "Genetics: Family history of BPH may increase the risk.",
+          "Lifestyle Factors: Obesity, lack of physical activity, and dietary habits may contribute.",
+          "Chronic Inflammation: Persistent inflammation of the prostate may lead to enlargement over time.",
+        ],
+      },
+      {
+        type: "heading",
+        content: "Symptoms of Prostate Enlargement",
+      },
+      {
+        type: "list",
+        items: [
+          "Urinary Frequency: Needing to urinate more often, especially at night (nocturia).",
+          "Urinary Urgency: A sudden, strong urge to urinate.",
+          "Weak Urine Stream: Reduced force or interrupted flow of urine.",
+          "Difficulty Starting Urination: Hesitancy or delay in initiating urination.",
+          "Dribbling at the End of Urination: Persistent leakage after voiding.",
+          "Incomplete Emptying: Feeling that the bladder is not fully emptied.",
+          "Urinary Retention: In severe cases, the inability to urinate, requiring medical attention.",
+        ],
+      },
+      {
+        type: "heading",
+        content: "Treatment",
+      },
+      {
+        type: "paragraph",
+        content:
+          "At Dr. Bama Spine Care, we take a holistic approach to treating kidney diseases by addressing their root causes rather than just managing symptoms. Our specialized treatment combines the power of herbal internal and external medicines with advanced techniques to restore kidney health effectively.",
+      },
+      {
+        type: "heading",
+        content: "Why Spinal Health Matters for Kidney Function",
+      },
+      {
+        type: "paragraph",
+        content:
+          "The kidneys are closely linked to the autonomic nervous system, which plays a crucial role in regulating their function. The nerves that supply the kidneys originate from the renal plexus, with fibers stemming from the thoracic (T10) to lumbar (L2) vertebrae. These nerve connections are essential for smooth communication between the brain and kidneys, ensuring optimal performance.",
+      },
+      {
+        type: "paragraph",
+        content:
+          "At Dr. Bama Spine Care, we understand the significance of spinal alignment in maintaining this delicate balance. Misalignments or disruptions in the T10 to L4 spinal region can compromise nerve function, potentially leading to kidney dysfunction or exacerbating existing conditions.",
+      },
+      {
+        type: "heading",
+        content: "Our Approach to Kidney Health",
+      },
+      {
+        type: "list",
+        items: [
+          "Herbal Medicine: We utilize potent herbal formulations for both internal and external application. These time-tested remedies work to cleanse, heal, and rejuvenate the kidneys, promoting natural recovery without harmful side effects.",
+          "Spinal Alignment and Correction: Our team focuses on correcting misalignments in the T10 to L4 region, targeting the root cause of nerve-related kidney issues. By restoring proper spinal alignment, we ensure that the autonomic nerves supplying the kidneys function without interference, enhancing kidney performance and overall health.",
+          "Personalized Care: Every patient is unique, and so is their treatment. We develop customized plans that address individual needs, combining traditional herbal remedies, Ayurvedic therapies, and modern spinal correction techniques to deliver optimal results.",
+        ],
+      },
+      {
+        type: "heading",
+        content: "The Dr. Bama Spine Care Advantage",
+      },
+      {
+        type: "list",
+        items: [
+          "Holistic Treatment: We treat the body as a whole, addressing both the physical and internal causes of kidney issues.",
+          "Focus on Root Causes: By correcting spinal misalignments and improving nerve function, we provide long-lasting relief and recovery.",
+          "Safe and Natural: Our herbal treatments are free from harmful chemicals, ensuring a safe healing process.",
+        ],
+      },
+      {
+        type: "heading",
+        content: "Take the First Step Towards Kidney Health",
+      },
+      {
+        type: "paragraph",
+        content:
+          "If you’re struggling with kidney-related issues, Dr. Bama Spine Care offers a unique and effective solution that targets the root cause. Our combination of powerful herbal treatments and precise spinal correction ensures a comprehensive approach to kidney health.",
+      },
+    ],
+  },
+  {
+    id: 40,
+    title: "Kidney Failure",
+    image: "https://via.placeholder.com/800x400",
+    description:
+      "Kidney failure, also known as renal failure, occurs when the kidneys lose their ability to filter waste and balance fluids and electrolytes in the body. ",
+    sections: [
+      {
+        type: "heading",
+        content: "Description",
+      },
+      {
+        type: "paragraph",
+        content:
+          "Kidney failure, also known as renal failure, occurs when the kidneys lose their ability to filter waste and balance fluids and electrolytes in the body. This condition can either develop suddenly (acute kidney failure) or progress over time (chronic kidney failure). When the kidneys fail, harmful waste products build up in the body, leading to a range of complications that can be life-threatening.",
+      },
+      {
+        type: "heading",
+        content: "Causes of Kidney Failure",
+      },
+      {
+        type: "subheading",
+        content: "Acute Kidney Failure",
+      },
+      {
+        type: "list",
+        items: [
+          "Severe Dehydration: Lack of sufficient fluids to maintain kidney function.",
+          "Infections: Sepsis or urinary tract infections.",
+          "Blockage of Urine Flow: Caused by kidney stones, tumors, or an enlarged prostate.",
+          "Toxins: Poisoning from heavy metals, drugs, or excessive alcohol.",
+          "Blood Loss or Shock: From surgery, injury, or severe burns.",
+        ],
+      },
+      {
+        type: "subheading",
+        content: "Chronic Kidney Failure",
+      },
+      {
+        type: "list",
+        items: [
+          "Diabetes Mellitus: Long-term high blood sugar levels damage the kidneys.",
+          "Hypertension (High Blood Pressure): Damages kidney blood vessels over time.",
+          "Glomerulonephritis: Inflammation of the kidneys' filtering units.",
+          "Polycystic Kidney Disease: Genetic disorder causing cysts in the kidneys.",
+          "Prolonged Medication Use: NSAIDs or certain antibiotics.",
+        ],
+      },
+      {
+        type: "heading",
+        content: "Symptoms of Kidney Failure",
+      },
+      {
+        type: "subheading",
+        content: "Early Symptoms (often mild and nonspecific)",
+      },
+      {
+        type: "list",
+        items: [
+          "Fatigue and weakness",
+          "Loss of appetite or nausea",
+          "Swelling in hands, feet, or face (edema)",
+          "Decreased urine output or changes in urine color",
+        ],
+      },
+      {
+        type: "subheading",
+        content: "Advanced Symptoms",
+      },
+      {
+        type: "list",
+        items: [
+          "Difficulty breathing (due to fluid buildup in the lungs)",
+          "Confusion or difficulty concentrating",
+          "Muscle cramps or twitching",
+          "Persistent itching",
+          "High blood pressure",
+        ],
+      },
+      {
+        type: "subheading",
+        content: "Severe Complications",
+      },
+      {
+        type: "list",
+        items: [
+          "Anemia",
+          "Bone disease due to mineral imbalances",
+          "Accumulation of toxins, leading to uremia (with symptoms like bad breath or a metallic taste in the mouth)",
+        ],
+      },
+      {
+        type: "heading",
+        content: "Treatment",
+      },
+      {
+        type: "paragraph",
+        content:
+          "At Dr. Bama Spine Care, we take a holistic approach to treating kidney diseases by addressing their root causes rather than just managing symptoms. Our specialized treatment combines the power of herbal internal and external medicines with advanced techniques to restore kidney health effectively.",
+      },
+      {
+        type: "heading",
+        content: "Why Spinal Health Matters for Kidney Function",
+      },
+      {
+        type: "paragraph",
+        content:
+          "The kidneys are closely linked to the autonomic nervous system, which plays a crucial role in regulating their function. The nerves that supply the kidneys originate from the renal plexus, with fibers stemming from the thoracic (T10) to lumbar (L2) vertebrae. These nerve connections are essential for smooth communication between the brain and kidneys, ensuring optimal performance.",
+      },
+      {
+        type: "paragraph",
+        content:
+          "At Dr. Bama Spine Care, we understand the significance of spinal alignment in maintaining this delicate balance. Misalignments or disruptions in the T10 to L4 spinal region can compromise nerve function, potentially leading to kidney dysfunction or exacerbating existing conditions.",
+      },
+      {
+        type: "heading",
+        content: "Our Approach to Kidney Health",
+      },
+      {
+        type: "list",
+        items: [
+          "Herbal Medicine: We utilize potent herbal formulations for both internal and external application. These time-tested remedies work to cleanse, heal, and rejuvenate the kidneys, promoting natural recovery without harmful side effects.",
+          "Spinal Alignment and Correction: Our team focuses on correcting misalignments in the T10 to L4 region, targeting the root cause of nerve-related kidney issues. By restoring proper spinal alignment, we ensure that the autonomic nerves supplying the kidneys function without interference, enhancing kidney performance and overall health.",
+          "Personalized Care: Every patient is unique, and so is their treatment. We develop customized plans that address individual needs, combining traditional herbal remedies, Ayurvedic therapies, and modern spinal correction techniques to deliver optimal results.",
+        ],
+      },
+      {
+        type: "heading",
+        content: "The Dr. Bama Spine Care Advantage",
+      },
+      {
+        type: "list",
+        items: [
+          "Holistic Treatment: We treat the body as a whole, addressing both the physical and internal causes of kidney issues.",
+          "Focus on Root Causes: By correcting spinal misalignments and improving nerve function, we provide long-lasting relief and recovery.",
+          "Safe and Natural: Our herbal treatments are free from harmful chemicals, ensuring a safe healing process.",
+        ],
+      },
+      {
+        type: "heading",
+        content: "Take the First Step Towards Kidney Health",
+      },
+      {
+        type: "paragraph",
+        content:
+          "If you’re struggling with kidney-related issues, Dr. Bama Spine Care offers a unique and effective solution that targets the root cause. Our combination of powerful herbal treatments and precise spinal correction ensures a comprehensive approach to kidney health.",
+      },
+    ],
+  },
+  {
+    id: 41,
+    title: "Painful Bladder Syndrome",
+    image: "https://via.placeholder.com/800x400",
+    description:
+      "Is a chronic condition characterized by bladder pain, pressure, or discomfort, often accompanied by frequent urination and an urgent need to urinate. ",
+    sections: [
+      {
+        type: "heading",
+        content: "Description",
+      },
+      {
+        type: "paragraph",
+        content:
+          "Painful Bladder Syndrome (PBS), also known as Interstitial Cystitis (IC), is a chronic condition characterized by bladder pain, pressure, or discomfort, often accompanied by frequent urination and an urgent need to urinate. The severity of symptoms can vary widely, and the condition may interfere with daily activities, work, and overall quality of life.",
+      },
+      {
+        type: "heading",
+        content: "Causes of Painful Bladder Syndrome",
+      },
+      {
+        type: "list",
+        items: [
+          "Bladder Lining Damage: Damage to the protective lining of the bladder, known as the urothelium, can allow irritating substances in urine to inflame the bladder wall.",
+          "Autoimmune Response: The immune system may mistakenly attack the bladder tissue, causing inflammation and pain.",
+          "Nerve Sensitization: Increased sensitivity of bladder nerves can heighten pain and urgency sensations.",
+          "Infections or Inflammation: A history of urinary tract infections (UTIs) may increase susceptibility.",
+          "Genetics: A family history of PBS or related conditions may raise the risk.",
+          "Allergic or Hypersensitivity Reactions: Some individuals with PBS have allergies or sensitivities that may contribute to symptoms.",
+          "Pelvic Floor Dysfunction: Problems with the pelvic muscles supporting the bladder can worsen symptoms.",
+        ],
+      },
+      {
+        type: "heading",
+        content: "Symptoms of Painful Bladder Syndrome",
+      },
+      {
+        type: "list",
+        items: [
+          "Bladder Pain or Pressure: Persistent or intermittent pain in the bladder, lower abdomen, or pelvic area.",
+          "Frequent Urination: Needing to urinate more than the normal 6-8 times per day, sometimes as often as every 10-15 minutes.",
+          "Urgent Need to Urinate: A strong, sudden urge to urinate that is difficult to delay.",
+          "Pain During Urination: Burning or discomfort while urinating, especially as the bladder fills.",
+          "Pain During Sexual Activity: Discomfort or pain during or after sexual intercourse.",
+          "Sleep Disruption: Waking up multiple times at night to urinate (nocturia).",
+        ],
+      },
+      {
+        type: "heading",
+        content: "Triggers of Painful Bladder Syndrome",
+      },
+      {
+        type: "list",
+        items: [
+          "Stress",
+          "Specific foods or drinks (e.g., caffeine, alcohol, spicy foods)",
+          "Menstruation",
+        ],
+      },
+      {
+        type: "heading",
+        content: "Treatment",
+      },
+      {
+        type: "paragraph",
+        content:
+          "At Dr. Bama Spine Care, we take a holistic approach to treating bladder diseases by addressing their root causes rather than just managing symptoms. Our specialized treatment combines the power of herbal internal and external medicines with advanced techniques to restore bladder health effectively.",
+      },
+      {
+        type: "heading",
+        content: "Spinal Health and Its Role in Bladder Function",
+      },
+      {
+        type: "paragraph",
+        content:
+          "The kidneys are closely linked to the autonomic nervous system, which plays a crucial role in regulating their function. The nerves that supply the kidneys originate from the renal plexus, with fibers stemming from the thoracic (T10) to lumbar (L2) vertebrae. These nerve connections are essential for smooth communication between the brain and kidneys, ensuring optimal performance.",
+      },
+      {
+        type: "paragraph",
+        content:
+          "At Dr. Bama Spine Care, we understand the significance of spinal alignment in maintaining this delicate balance. Misalignments or disruptions in the T10 to L4 spinal region can compromise nerve function, potentially leading to bladder dysfunction or exacerbating existing conditions.",
+      },
+      {
+        type: "heading",
+        content: "Our Approach to Bladder Health",
+      },
+      {
+        type: "list",
+        items: [
+          "Herbal Medicine: We utilize potent herbal formulations for both internal and external application. These time-tested remedies work to cleanse, heal, and rejuvenate the bladder, promoting natural recovery without harmful side effects.",
+          "Spinal Alignment and Correction: Our team focuses on correcting misalignments in the T10 to L4 region, targeting the root cause of nerve-related bladder issues. By restoring proper spinal alignment, we ensure that the autonomic nerves supplying the bladder function without interference, enhancing bladder performance and overall health.",
+          "Personalized Care: Every patient is unique, and so is their treatment. We develop customized plans that address individual needs, combining traditional herbal remedies, Ayurvedic therapies, and modern spinal correction techniques to deliver optimal results.",
+        ],
+      },
+      {
+        type: "heading",
+        content: "The Dr. Bama Spine Care Advantage",
+      },
+      {
+        type: "list",
+        items: [
+          "Holistic Treatment: We treat the body as a whole, addressing both the physical and internal causes of bladder issues.",
+          "Focus on Root Causes: By correcting spinal misalignments and improving nerve function, we provide long-lasting relief and recovery.",
+          "Safe and Natural: Our herbal treatments are free from harmful chemicals, ensuring a safe healing process.",
+        ],
+      },
+      {
+        type: "heading",
+        content: "Next Steps",
+      },
+      {
+        type: "paragraph",
+        content:
+          "If you’re struggling with bladder-related issues, Dr. Bama Spine Care offers a unique and effective solution that targets the root cause. Our combination of powerful herbal treatments and precise spinal correction ensures a comprehensive approach to bladder health.",
+      },
+    ],
+  },
+  {
+    id: 42,
+    title: "Kidney Enlargement (Renal Enlargement): Overview",
+    image: "https://via.placeholder.com/800x400",
+    description:
+      "Increase in the size of one or both kidneys, often due to underlying conditions.",
+    sections: [
+      {
+        type: "heading",
+        content: "Description",
+      },
+      {
+        type: "paragraph",
+        content:
+          "Kidney enlargement, also called renal enlargement or hydronephrosis (when due to fluid buildup), refers to an increase in the size of one or both kidneys. It is not a disease but a symptom or sign of an underlying condition affecting the kidneys.",
+      },
+      {
+        type: "heading",
+        content: "Causes of Kidney Enlargement",
+      },
+      {
+        type: "list",
+        items: [
+          "Obstruction of Urine Flow",
+          "Kidney stones: Block the ureter, causing urine to back up.",
+          "Urinary tract obstruction: Due to strictures, tumors, or congenital abnormalities.",
+          "Prostate enlargement: In men, can obstruct urine flow.",
+          "Infections",
+          "Pyelonephritis: A severe kidney infection causing swelling.",
+          "Urinary tract infections (UTIs): Can spread to the kidneys.",
+          "Polycystic Kidney Disease (PKD)",
+          "A genetic disorder leading to the formation of multiple cysts that enlarge the kidneys.",
+          "Tumors and Cancers",
+          "Renal cell carcinoma: Primary kidney cancer.",
+          "Wilms’ tumor: Common in children.",
+          "Metastatic tumors: Cancers spreading to the kidney.",
+          "Hydronephrosis",
+          "Swelling caused by urine buildup due to obstruction or reflux.",
+          "Glomerulonephritis",
+          "Inflammation of the kidney's filtering units (glomeruli).",
+          "Amyloidosis",
+          "Protein deposits in kidney tissues can lead to enlargement.",
+          "Congenital Kidney Disorders",
+          "Structural abnormalities present at birth.",
+          "Other Causes",
+          "Chronic kidney diseases.",
+          "Blood clots or vascular issues affecting the renal artery or vein.",
+        ],
+      },
+      {
+        type: "heading",
+        content: "Symptoms of Kidney Enlargement",
+      },
+      {
+        type: "list",
+        items: [
+          "Pain",
+          "Flank or back pain, often on one side.",
+          "Sharp or cramping pain (if caused by kidney stones).",
+          "Urinary Symptoms",
+          "Frequent urination.",
+          "Difficulty urinating or a weak stream.",
+          "Blood in urine (hematuria).",
+          "Cloudy or foul-smelling urine.",
+          "Systemic Symptoms",
+          "Fever and chills (if infection is present).",
+          "Fatigue or weakness.",
+          "Nausea or vomiting.",
+          "Abdominal Signs",
+          "Swelling or a palpable mass in the abdomen.",
+          "Hypertension (High Blood Pressure)",
+          "Caused by reduced kidney function or underlying vascular issues.",
+          "Edema",
+          "Swelling in the legs, ankles, or face due to fluid retention.",
+        ],
+      },
+      {
+        type: "heading",
+        content: "Treatment",
+      },
+      {
+        type: "paragraph",
+        content:
+          "At Dr. Bama Spine Care, we take a holistic approach to treating kidney diseases by addressing their root causes rather than just managing symptoms. Our specialized treatment combines the power of herbal internal and external medicines with advanced techniques to restore kidney health effectively.",
+      },
+      {
+        type: "heading",
+        content: "Why Spinal Health Matters for Kidney Function",
+      },
+      {
+        type: "paragraph",
+        content:
+          "The kidneys are closely linked to the autonomic nervous system, which plays a crucial role in regulating their function. The nerves that supply the kidneys originate from the renal plexus, with fibers stemming from the thoracic (T10) to lumbar (L2) vertebrae. These nerve connections are essential for smooth communication between the brain and kidneys, ensuring optimal performance.",
+      },
+      {
+        type: "paragraph",
+        content:
+          "At Dr. Bama Spine Care, we understand the significance of spinal alignment in maintaining this delicate balance. Misalignments or disruptions in the T10 to L4 spinal region can compromise nerve function, potentially leading to kidney dysfunction or exacerbating existing conditions.",
+      },
+      {
+        type: "heading",
+        content: "Our Approach to Kidney Health",
+      },
+      {
+        type: "list",
+        items: [
+          "Herbal Medicine: We utilize potent herbal formulations for both internal and external application. These time-tested remedies work to cleanse, heal, and rejuvenate the kidneys, promoting natural recovery without harmful side effects.",
+          "Spinal Alignment and Correction: Our team focuses on correcting misalignments in the T10 to L4 region, targeting the root cause of nerve-related kidney issues. By restoring proper spinal alignment, we ensure that the autonomic nerves supplying the kidneys function without interference, enhancing kidney performance and overall health.",
+          "Personalized Care: Every patient is unique, and so is their treatment. We develop customized plans that address individual needs, combining traditional herbal remedies, Ayurvedic therapies, and modern spinal correction techniques to deliver optimal results.",
+        ],
+      },
+      {
+        type: "heading",
+        content: "The Dr. Bama Spine Care Advantage",
+      },
+      {
+        type: "list",
+        items: [
+          "Holistic Treatment: We treat the body as a whole, addressing both the physical and internal causes of kidney issues.",
+          "Focus on Root Causes: By correcting spinal misalignments and improving nerve function, we provide long-lasting relief and recovery.",
+          "Safe and Natural: Our herbal treatments are free from harmful chemicals, ensuring a safe healing process.",
+        ],
+      },
+      {
+        type: "heading",
+        content: "Take the First Step Towards Kidney Health",
+      },
+      {
+        type: "paragraph",
+        content:
+          "If you’re struggling with kidney-related issues, Dr. Bama Spine Care offers a unique and effective solution that targets the root cause. Our combination of powerful herbal treatments and precise spinal correction ensures a comprehensive approach to kidney health.",
+      },
+    ],
+  },
+  {
+    id: 43,
+    title: "Kidney Stones",
+    image: "https://via.placeholder.com/800x400",
+    description:
+      "Hard deposits of minerals and salts that form inside the kidneys.",
+    sections: [
+      {
+        type: "heading",
+        content: "Description",
+      },
+      {
+        type: "paragraph",
+        content:
+          "Kidney enlargement, also called renal enlargement or hydronephrosis (when due to fluid buildup), refers to an increase in the size of one or both kidneys. It is not a disease but a symptom or sign of an underlying condition affecting the kidneys.",
+      },
+      {
+        type: "heading",
+        content: "Causes of Kidney Stones",
+      },
+      {
+        type: "list",
+        items: [
+          "Dehydration: Insufficient fluid intake concentrates urine, making it easier for crystals to form.",
+          "Diet: High intake of oxalate-rich foods (like spinach), excessive salt, or protein can increase risk.",
+          "Family or Personal History: A genetic predisposition or previous occurrences increase likelihood.",
+          "Certain Medical Conditions: Conditions like hyperparathyroidism, gout, or recurrent urinary tract infections.",
+          "Medications: Some drugs, such as diuretics or calcium-based antacids, may contribute to stone formation.",
+          "Obesity: Higher body weight is associated with changes in urine composition that favor stone formation.",
+        ],
+      },
+      {
+        type: "heading",
+        content: "Symptoms of Kidney Stones",
+      },
+      {
+        type: "list",
+        items: [
+          "Severe Pain: Sharp pain in the back, side, lower abdomen, or groin (renal colic).",
+          "Blood in Urine: Pink, red, or brown urine (hematuria).",
+          "Frequent Urination: Increased urgency or frequency, often accompanied by discomfort.",
+          "Cloudy or Foul-Smelling Urine: Indicates infection or urine composition changes.",
+          "Nausea and Vomiting: Often due to the pain or related urinary tract irritation.",
+          "Fever and Chills: Suggest an accompanying urinary infection.",
+        ],
+      },
+      {
+        type: "heading",
+        content: "Treatment",
+      },
+      {
+        type: "paragraph",
+        content:
+          "At Dr. Bama Spine Care, we take a holistic approach to treating kidney diseases by addressing their root causes rather than just managing symptoms. Our specialized treatment combines the power of herbal internal and external medicines with advanced techniques to restore kidney health effectively.",
+      },
+      {
+        type: "heading",
+        content: "Why Spinal Health Matters for Kidney Function",
+      },
+      {
+        type: "paragraph",
+        content:
+          "The kidneys are closely linked to the autonomic nervous system, which plays a crucial role in regulating their function. The nerves that supply the kidneys originate from the renal plexus, with fibers stemming from the thoracic (T10) to lumbar (L2) vertebrae. These nerve connections are essential for smooth communication between the brain and kidneys, ensuring optimal performance.",
+      },
+      {
+        type: "paragraph",
+        content:
+          "At Dr. Bama Spine Care, we understand the significance of spinal alignment in maintaining this delicate balance. Misalignments or disruptions in the T10 to L4 spinal region can compromise nerve function, potentially leading to kidney dysfunction or exacerbating existing conditions.",
+      },
+      {
+        type: "heading",
+        content: "Our Approach to Kidney Health",
+      },
+      {
+        type: "list",
+        items: [
+          "Herbal Medicine: We utilize potent herbal formulations for both internal and external application. These time-tested remedies work to cleanse, heal, and rejuvenate the kidneys, promoting natural recovery without harmful side effects.",
+          "Spinal Alignment and Correction: Our team focuses on correcting misalignments in the T10 to L4 region, targeting the root cause of nerve-related kidney issues. By restoring proper spinal alignment, we ensure that the autonomic nerves supplying the kidneys function without interference, enhancing kidney performance and overall health.",
+          "Personalized Care: Every patient is unique, and so is their treatment. We develop customized plans that address individual needs, combining traditional herbal remedies, Ayurvedic therapies, and modern spinal correction techniques to deliver optimal results.",
+        ],
+      },
+      {
+        type: "heading",
+        content: "The Dr. Bama Spine Care Advantage",
+      },
+      {
+        type: "list",
+        items: [
+          "Holistic Treatment: We treat the body as a whole, addressing both the physical and internal causes of kidney issues.",
+          "Focus on Root Causes: By correcting spinal misalignments and improving nerve function, we provide long-lasting relief and recovery.",
+          "Safe and Natural: Our herbal treatments are free from harmful chemicals, ensuring a safe healing process.",
+        ],
+      },
+      {
+        type: "heading",
+        content: "Take the First Step Towards Kidney Health",
+      },
+      {
+        type: "paragraph",
+        content:
+          "If you’re struggling with kidney-related issues, Dr. Bama Spine Care offers a unique and effective solution that targets the root cause. Our combination of powerful herbal treatments and precise spinal correction ensures a comprehensive approach to kidney health.",
+      },
+    ],
+  },
+  {
+    id: 44,
+    title: "Kidney Shrinkage (Renal Atrophy)",
+    image: "https://via.placeholder.com/800x400",
+    description:
+      "A condition where the kidneys decrease in size and lose their ability to function properly.",
+    sections: [
+      {
+        type: "heading",
+        content: "Description",
+      },
+      {
+        type: "paragraph",
+        content:
+          "Kidney shrinkage, also known as renal atrophy, occurs when the kidneys decrease in size and lose their ability to function properly. This condition can affect one or both kidneys and is often indicative of underlying diseases or damage.",
+      },
+      {
+        type: "heading",
+        content: "Causes of Kidney Shrinkage",
+      },
+      {
+        type: "list",
+        items: [
+          "Chronic Kidney Disease (CKD): Long-term damage due to conditions like diabetes, high blood pressure, or glomerulonephritis. Progressive scarring (fibrosis) reduces kidney size.",
+          "Renal Artery Stenosis: Narrowing of the renal arteries restricts blood flow, leading to ischemia and atrophy.",
+          "Obstructive Uropathy: Blockages in the urinary tract, such as kidney stones, tumors, or enlarged prostate, cause urine buildup, leading to kidney damage.",
+          "Recurrent Kidney Infections: Chronic pyelonephritis or repeated urinary tract infections can lead to scarring and atrophy.",
+          "Congenital or Genetic Disorders: Conditions like reflux nephropathy or polycystic kidney disease.",
+          "Aging: Natural reduction in kidney mass and function as part of the aging process.",
+          "Medications and Toxins: Prolonged use of nephrotoxic drugs (e.g., NSAIDs) or exposure to toxic substances.",
+          "Autoimmune Diseases: Conditions like lupus or vasculitis, where the immune system attacks kidney tissue.",
+        ],
+      },
+      {
+        type: "heading",
+        content: "Symptoms of Kidney Shrinkage",
+      },
+      {
+        type: "list",
+        items: [
+          "General Symptoms: Fatigue, loss of appetite, unexplained weight loss.",
+          "Urinary Symptoms: Reduced urine output or difficulty urinating, blood in the urine (hematuria), foamy urine (proteinuria), frequent urination, especially at night (nocturia).",
+          "Fluid Imbalance: Swelling in the hands, feet, or face (edema), high blood pressure (hypertension).",
+          "Toxin Build-Up: Nausea or vomiting, itchy skin, bad breath or metallic taste.",
+          "Advanced Symptoms (End-Stage Renal Disease): Shortness of breath, confusion or trouble concentrating, severe fatigue or drowsiness.",
+        ],
+      },
+      {
+        type: "heading",
+        content: "Treatment",
+      },
+      {
+        type: "paragraph",
+        content:
+          "At Dr. Bama Spine Care, we take a holistic approach to treating kidney diseases by addressing their root causes rather than just managing symptoms. Our specialized treatment combines the power of herbal internal and external medicines with advanced techniques to restore kidney health effectively.",
+      },
+      {
+        type: "heading",
+        content: "Why Spinal Health Matters for Kidney Function",
+      },
+      {
+        type: "paragraph",
+        content:
+          "The kidneys are closely linked to the autonomic nervous system, which plays a crucial role in regulating their function. The nerves that supply the kidneys originate from the renal plexus, with fibers stemming from the thoracic (T10) to lumbar (L2) vertebrae. These nerve connections are essential for smooth communication between the brain and kidneys, ensuring optimal performance.",
+      },
+      {
+        type: "paragraph",
+        content:
+          "At Dr. Bama Spine Care, we understand the significance of spinal alignment in maintaining this delicate balance. Misalignments or disruptions in the T10 to L4 spinal region can compromise nerve function, potentially leading to kidney dysfunction or exacerbating existing conditions.",
+      },
+      {
+        type: "heading",
+        content: "Our Approach to Kidney Health",
+      },
+      {
+        type: "list",
+        items: [
+          "Herbal Medicine: We utilize potent herbal formulations for both internal and external application. These time-tested remedies work to cleanse, heal, and rejuvenate the kidneys, promoting natural recovery without harmful side effects.",
+          "Spinal Alignment and Correction: Our team focuses on correcting misalignments in the T10 to L4 region, targeting the root cause of nerve-related kidney issues. By restoring proper spinal alignment, we ensure that the autonomic nerves supplying the kidneys function without interference, enhancing kidney performance and overall health.",
+          "Personalized Care: Every patient is unique, and so is their treatment. We develop customized plans that address individual needs, combining traditional herbal remedies, Ayurvedic therapies, and modern spinal correction techniques to deliver optimal results.",
+        ],
+      },
+      {
+        type: "heading",
+        content: "The Dr. Bama Spine Care Advantage",
+      },
+      {
+        type: "list",
+        items: [
+          "Holistic Treatment: We treat the body as a whole, addressing both the physical and internal causes of kidney issues.",
+          "Focus on Root Causes: By correcting spinal misalignments and improving nerve function, we provide long-lasting relief and recovery.",
+          "Safe and Natural: Our herbal treatments are free from harmful chemicals, ensuring a safe healing process.",
+        ],
+      },
+      {
+        type: "heading",
+        content: "Take the First Step Towards Kidney Health",
+      },
+      {
+        type: "paragraph",
+        content:
+          "If you’re struggling with kidney-related issues, Dr. Bama Spine Care offers a unique and effective solution that targets the root cause. Our combination of powerful herbal treatments and precise spinal correction ensures a comprehensive approach to kidney health.",
       },
     ],
   },
