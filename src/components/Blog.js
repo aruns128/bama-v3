@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import BlogRenderer from "./BlogRenderer";
 import { blogsData } from "./ConditionsData";
 import { FaArrowLeft } from "react-icons/fa";
@@ -7,6 +7,7 @@ import { AiOutlineRead } from "react-icons/ai";
 
 const Blog = () => {
   const { id } = useParams();
+  const navigate = useNavigate();
 
   const [selectedBlog, setSelectedBlog] = useState(
     blogsData.filter((item) => item.id === +id)[0] || null
@@ -41,7 +42,7 @@ const Blog = () => {
   }, [selectedBlog]);
 
   const handleBlogClick = (blog) => {
-    setSelectedBlog(blog);
+    navigate(`/blogs/${blog.id}`);
   };
 
   return (
@@ -74,7 +75,7 @@ const Blog = () => {
           <div className="flex items-center justify-end mb-4">
             {/* <h1 className="text-3xl font-bold">{selectedBlog.title}</h1> */}
             <button
-              onClick={() => setSelectedBlog(null)}
+              onClick={() => navigate("/blogs")}
               className="text-white bg-amber-500 px-4 py-2 rounded-lg hover:bg-amber-600 flex-end"
             >
               <FaArrowLeft />
