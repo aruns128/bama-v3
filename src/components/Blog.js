@@ -1,15 +1,17 @@
 import React, { useState, useEffect } from "react";
-import { useLocation } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import BlogRenderer from "./BlogRenderer";
 import { blogsData } from "./ConditionsData";
 import { FaArrowLeft } from "react-icons/fa";
 import { AiOutlineRead } from "react-icons/ai";
 
 const Blog = () => {
-  const location = useLocation();
+  const { id } = useParams();
+
   const [selectedBlog, setSelectedBlog] = useState(
-    location.state?.selectedBlog || null
+    blogsData.filter((item) => item.id === +id)[0] || null
   );
+
   const [searchQuery, setSearchQuery] = useState("");
   const [filteredBlogs, setFilteredBlogs] = useState(blogsData);
 
@@ -19,6 +21,11 @@ const Blog = () => {
     );
     setFilteredBlogs(filtered);
   }, [searchQuery]);
+
+  useEffect(() => {
+    const filtered = blogsData.filter((item) => item.id === +id)[0];
+    setSelectedBlog(filtered);
+  }, [id]);
 
   useEffect(() => {
     window.scrollTo(0, 0);

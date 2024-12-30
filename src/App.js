@@ -28,6 +28,9 @@ function App() {
             <Route path="/about" element={<AboutUs />} />
             <Route path="/blogs" element={<Blog />} />
             <Route path="/locations" element={<LocateUs />} />
+
+            {/* ID-based routing */}
+            <Route path="/blogs/:id" element={<Blog />} />
           </Routes>
         </main>
 

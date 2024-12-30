@@ -11,8 +11,7 @@ const Navbar = () => {
   const navigate = useNavigate();
 
   const handleCardClick = (blog) => {
-    navigate("/blogs", { state: { selectedBlog: blog } });
-
+    navigate(`/blogs/${blog.id}`);
     setOpenDropdown(null);
   };
 

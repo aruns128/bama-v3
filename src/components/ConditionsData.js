@@ -460,11 +460,7 @@ export const blogsData = [
       },
       {
         type: "heading",
-        content: "Hepatitis A",
-      },
-      {
-        type: "heading",
-        content: "Cause",
+        content: "Hepatitis A Cause",
       },
       {
         type: "paragraph",

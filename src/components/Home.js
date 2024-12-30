@@ -66,19 +66,12 @@ const Home = () => {
   ];
 
   const handleCardClick = (blog) => {
-    navigate("/blogs", { state: { selectedBlog: blog } });
+    navigate(`/blogs/${blog.id}`);
   };
 
   return (
     <div>
-      {/* Section 1: Image Slider */}
       <section className="bg-gray-100 py-6 z-1 mt-24 relative">
-        <SEO
-          title="Dr. Bama Spine Care - Trusted Spine Treatment"
-          description="Dr. Bama Spine Care offers effective spine care treatments in Ernakulam, specializing in back pain and spine disorders."
-          keywords="spine care, back pain treatment, Dr. Bama, spine clinic, spine disorders"
-          canonical="https://www.drbamaspinecare.com"
-        />
         <SEO
           title="Dr. Bama Spine Care - Trusted Spine Treatment"
           description="With over 32 years of experience in spine care treatment, we at Bama
